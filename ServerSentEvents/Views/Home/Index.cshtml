@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Server-Sent Events";
+}
+
+<div class="alert alert-info" role="alert" ng-show="isAlertVisible">{{message}}</div>
+
+<div class="form-group">
+    <label for="txtName">Name:</label>
+    <input id="txtName" name="txtName" class="form-control" type="text" ng-model="script.name" />
+</div>
+
+<input type="button" class="btn btn-primary" value="start process" ng-click="startProcess()" />
+<input type="button" class="btn btn-success" value="start listening" ng-click="startListening()" ng-hide="isListening" />
+<input type="button" class="btn btn-danger" value="stop listening" ng-click="stopListening()" ng-show="isListening" />

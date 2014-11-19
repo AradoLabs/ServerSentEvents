@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/ServerSentEvents.v12.suo
+/ServerSentEvents/obj/*
+/ServerSentEvents.Tests/obj/*
+/ServerSentEvents/ServerSentEvents.csproj.user
+/ServerSentEvents/bin/*
+/ServerSentEvents.Tests/bin/*
